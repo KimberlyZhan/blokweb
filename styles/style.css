@@ -20,6 +20,12 @@ button, summary {
 	/* startje */
 	--color-text:#111;
 	--color-background:#eee;
+	
+	--color-background-second: #e7eeed;
+	--color-background-third: #fceed0;
+	--color-dieet: #ffc1c1;
+	--color-nav-en-nieuwsbrief: #64827d;
+
 }
 
 
@@ -27,13 +33,104 @@ button, summary {
 
 
 /****************/
-/* JOUW STYLING */
+/* 	ALGEMENE STYLING */
 /****************/
-
-/* jouw code */
-
 body {
   color:var(--color-text);
   background-color:var(--color-background);
 }
 
+h1 {
+	font-family: 'Leckerli One', cursive;
+}
+
+h2 {
+	font-family: 'Roboto Slab', serif;
+}
+
+p {
+	font-family: 'Nunito Sans', sans-serif;
+}
+
+
+
+
+
+/****************/
+/* 	HEADER STYLING */
+/****************/
+
+/* naam "Leuke Recepten" */
+h1 {
+	position: relative;
+
+	z-index: 1;
+
+	font-size: 20px;
+	text-align: center;
+	font-weight: 100;
+
+}
+
+/* hartje logo achter de naam */
+header section img:nth-of-type(1) {
+	position: absolute;
+
+	min-height: 2.5em;
+	max-width: 2.5em;
+	top: 0.5em;
+	left: 16.5em;
+
+	opacity: 0.3;
+}
+
+/* kookboek icoon bij eetschema button */
+header img:nth-of-type(1) {
+	position: absolute;
+
+	left: 1.7em;
+	top: 4.6em;
+
+	z-index: 1;
+
+	max-width: 1.3em;
+}
+
+/* pijltje icoon bij eetschema button */
+header img:nth-of-type(2) {
+	position: absolute;
+
+	left: 16em;
+	top: 4.8em;
+
+	z-index: 1;
+
+	max-width: 1em;
+}
+
+/* eetschema button */
+header p {
+	position: relative;
+
+	text-transform: uppercase;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 600;
+	font-size: 1em;
+
+	background-color: var(--color-dieet);
+	max-width: 18em;
+	padding: 1em 2em 1em 2em;
+	text-align: center;
+	border-radius: 3em;
+}
+
+nav button img:nth-of-type(1) {
+	position: absolute;
+
+	left: 16em;
+	top: 4.8em;
+
+	z-index: 1;
+
+	max-width: 3em;
+}

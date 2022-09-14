@@ -63,6 +63,23 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
+  
+  Concentratie problemen:
+  -- Typen is lastig op de laptop en telefoon.
+
+  Slechte motoriek:
+  -- Het duurt wat langer om te typen en als je bijvoorbeeld 2 of 3 vingers bij elkaar had met de elastiek, dan drukte je meerdere toetsen tegelijkertijd in op je toetsenbord wat heel irritant is.
+  -- Op mobiel is het moeilijk typen en navigeren. Is ook lastig om bijvoorbeeld een pop-up weg te klikken en om bij kruisjes en buttons in de hoek te komen.
+
+  Visuele beperkingen:
+  -- Blurry bril is irritant en ik kon de muis cursor niet goed vinden omdat het zo klein is.
+  -- Bril waarbij bepaalde hoeken werden bedekt was ook irritant omdat je helemaal je hoofd moet ronddraaien om iets te kunnen zien.
+  -- Geen bril op (geen sterkte) was pijnlijk aan mijn ogen omdat ik heel dichtbij het scherm zat te kijken.
+  -- Lage helderheid op de laptop was te doen maar ook pijnlijk omdat ik dichtbij het scherm zat te kijken.
+
+  Spasmes Parkinson:
+  -- Kleine knopjes zoals weg-klik-kruisjes en radio buttons zijn lastiger om aan te klikken. Ik moet me meer concentreren ervoor.
+  -- Scrollen is erg lastig omdat je een lange "stroke" moet vegen om te scrollen en met de elektrische simulator trilt je hand steeds waardoor je niet goed kon scrollen.
 
   #### Screenreader
   Hier korte omschrijving (met indien nodig afbeeldingen)
@@ -118,6 +135,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  
+   --Ik snapte eerst nog niet echt hoe ":nth-of-type" werkt, maar het is me gelukt. Had even problemen met hoe ik de selector moest opstellen voor :nth-of-type. Ik had ook even wat struggles met positioneren, maar het bleek dat ik verward was met wat ik precies aan het stylen was (lange dag geweest vandaag).
+
 
 
   ### Agenda voor meeting
