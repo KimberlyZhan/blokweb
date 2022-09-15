@@ -40,17 +40,17 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   homepagina  
-  <img src="readme-images/leukereceptenWEBhome1" width="375px" alt="dit is de homepagina van leukerecepten.nl desktop versie">
+  <img src="readme-images/leukereceptenWEBhome1.png" width="375px" alt="dit is de homepagina van leukerecepten.nl desktop versie">
   <img src="readme-images/leukereceptenTELhome1.png" width="375px" alt="dit is de homepagina van leukerecepten.nl op telefoon">
   <img src="readme-images/leukereceptenTELhome2.png" width="375px" alt="dit is de homepagina van leukerecepten.nl op telefoon">
   <img src="readme-images/leukereceptenTELhome3.png" width="375px" alt="dit is de homepagina van leukerecepten.nl op telefoon">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   recepten pagina
-  <img src="readme-images/leukereceptenWEBrecept1" width="375px" alt="dit is de recepten pagina van leukerecepten.nl waar je o.a. de ingredientenlijst en stappenplan kan vinden">
-  <img src="readme-images/leukereceptenTELrecept2" width="375px" alt="dit is de recepten pagina van leukerecepten.nl waar je o.a. de ingredientenlijst en stappenplan kan vinden">
-  <img src="readme-images/leukereceptenTELrecept3" width="375px" alt="dit is de recepten pagina van leukerecepten.nl waar je o.a. de ingredientenlijst en stappenplan kan vinden">
-  <img src="readme-images/leukereceptenTELrecept4" width="375px" alt="dit is de recepten pagina van leukerecepten.nl waar je o.a. de ingredientenlijst en stappenplan kan vinden">
+  <img src="readme-images/leukereceptenWEBhome1.png" width="375px" alt="dit is de recepten pagina van leukerecepten.nl waar je o.a. de ingredientenlijst en stappenplan kan vinden">
+  <img src="readme-images/leukereceptenTELrecept2.png" width="375px" alt="dit is de recepten pagina van leukerecepten.nl waar je o.a. de ingredientenlijst en stappenplan kan vinden">
+  <img src="readme-images/leukereceptenTELrecept3.png" width="375px" alt="dit is de recepten pagina van leukerecepten.nl waar je o.a. de ingredientenlijst en stappenplan kan vinden">
+  <img src="readme-images/leukereceptenTELrecept4.png" width="375px" alt="dit is de recepten pagina van leukerecepten.nl waar je o.a. de ingredientenlijst en stappenplan kan vinden">
  
 </details>
 
