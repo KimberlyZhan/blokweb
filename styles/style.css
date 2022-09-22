@@ -62,11 +62,9 @@ p {
 
 /* naam "Leuke Recepten" */
 h1 {
-	position: relative;
+	z-index: 2;
 
-	z-index: 1;
-
-	font-size: 20px;
+	font-size: 25px;
 	text-align: center;
 	font-weight: 100;
 
@@ -88,8 +86,8 @@ header section img:nth-of-type(1) {
 header img:nth-of-type(1) {
 	position: absolute;
 
-	left: 1.7em;
-	top: 4.6em;
+	left: 10em;
+	top: 6.7em;
 
 	z-index: 1;
 
@@ -100,8 +98,8 @@ header img:nth-of-type(1) {
 header img:nth-of-type(2) {
 	position: absolute;
 
-	left: 16em;
-	top: 4.8em;
+	right: 10em;
+	top: 6.7em;
 
 	z-index: 1;
 
@@ -111,6 +109,9 @@ header img:nth-of-type(2) {
 /* eetschema button */
 header p {
 	position: relative;
+
+	left: 8.5em;
+	top: 2em;
 
 	text-transform: uppercase;
 	font-family: Arial, Helvetica, sans-serif;
@@ -124,6 +125,11 @@ header p {
 	border-radius: 3em;
 }
 
+main section:nth-of-type(1) img{
+	max-width: 36em;
+
+}
+
 nav button img:nth-of-type(1) {
 	position: absolute;
 
@@ -133,4 +139,32 @@ nav button img:nth-of-type(1) {
 	z-index: 1;
 
 	max-width: 3em;
+}
+
+input:nth-of-type(1) {
+	position: absolute;
+
+	left: 11.5em;
+	top: 20em;
+
+	min-width: 30em;
+	min-height: 4em;
+
+	border-radius: 2em;
+}
+
+form {
+	display: grid;
+}
+
+/* de zwarte buttons */
+button {
+	border-radius: 2em;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	min-width: 9em;
+	background-color: black;
+	color: white;
+	text-transform: uppercase;
+	font-size: 15px;
 }
