@@ -36,8 +36,8 @@ button, summary {
 /* 	ALGEMENE STYLING */
 /****************/
 body {
-  color:var(--color-text);
-  background-color:var(--color-background);
+	color:var(--color-text);
+	background-color:var(--color-background);
 }
 
 h1 {
@@ -62,32 +62,34 @@ p {
 
 /* naam "Leuke Recepten" */
 h1 {
-	z-index: 2;
-
 	font-size: 25px;
 	text-align: center;
 	font-weight: 100;
 
+	margin-top: 0;
 }
 
 /* hartje logo achter de naam */
-header section img:nth-of-type(1) {
+header section:nth-of-type(1) img:nth-of-type(1){
 	position: absolute;
 
-	min-height: 2.5em;
-	max-width: 2.5em;
 	top: 0.5em;
 	left: 16.5em;
+
+	z-index: -1;
+
+	min-height: 2.5em;
+	max-width: 2.8em;
 
 	opacity: 0.3;
 }
 
 /* kookboek icoon bij eetschema button */
-header img:nth-of-type(1) {
+header section:nth-of-type(2) img:nth-of-type(1){
 	position: absolute;
 
 	left: 10em;
-	top: 6.7em;
+	top: 4.8em;
 
 	z-index: 1;
 
@@ -95,11 +97,11 @@ header img:nth-of-type(1) {
 }
 
 /* pijltje icoon bij eetschema button */
-header img:nth-of-type(2) {
+header section:nth-of-type(2) img:nth-of-type(2){
 	position: absolute;
 
-	right: 10em;
-	top: 6.7em;
+	right: 10.4em;
+	top: 5em;
 
 	z-index: 1;
 
@@ -108,10 +110,9 @@ header img:nth-of-type(2) {
 
 /* eetschema button */
 header p {
-	position: relative;
-
-	left: 8.5em;
-	top: 2em;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
 
 	text-transform: uppercase;
 	font-family: Arial, Helvetica, sans-serif;
@@ -125,11 +126,25 @@ header p {
 	border-radius: 3em;
 }
 
+/* afbeelding wraps met kip als hoofdgerecht van vandaag */
 main section:nth-of-type(1) img{
-	max-width: 36em;
-
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
 }
 
+/* vergrootglas afbeelding voor search */
+main section:first-child nav:first-child img{
+	position: absolute;
+
+	top: 17em;
+	right: 9em;
+
+	width: 3em;
+	height: 3em;
+}
+
+/* 
 nav button img:nth-of-type(1) {
 	position: absolute;
 
@@ -139,9 +154,29 @@ nav button img:nth-of-type(1) {
 	z-index: 1;
 
 	max-width: 3em;
+} */
+
+
+nav input{
+	position: absolute;
+
+	top: 17em;
+	left: 10em;
+
+	border-radius: 2em;
+
+	min-width: 30em;
+	min-height: 3em;
+
+	text-align: center;
 }
 
-input:nth-of-type(1) {
+nav button:nth-of-type(1){
+	width: 3em;
+	height: 3em;
+}
+
+/* input:nth-of-type(1) {
 	position: absolute;
 
 	left: 11.5em;
@@ -151,14 +186,14 @@ input:nth-of-type(1) {
 	min-height: 4em;
 
 	border-radius: 2em;
-}
+} */
 
-form {
+/* form {
 	display: grid;
-}
+} */
 
 /* de zwarte buttons */
-button {
+/* button {
 	border-radius: 2em;
 	padding-top: 5px;
 	padding-bottom: 5px;
@@ -167,4 +202,4 @@ button {
 	color: white;
 	text-transform: uppercase;
 	font-size: 15px;
-}
+} */

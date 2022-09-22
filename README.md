@@ -202,10 +202,21 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+  - dinsdag laten zien wat ik heb en hoe ver ik ben, als dinsdag alles netjes is en mooi dan gaat de tweede veel beter.
+  - alle elementen een voor een maken dus eerst de header mooi maken en dan zo naar het volgende element gaan, stap voor stap naar beneden werken.
+  - focus op 1 pagina eerst en dan pas de op de 2de focussen want dan wordt de 2de pagina makkelijker.
+  - eerst een van de twee pagina's maken: beter 1 mooie pagina dan 2 lelijke pagina's.
+  - verwerk alle huiswerk stof en info in mijn site dus animaties, transitions, JS, positioneren, media-queries etc.
+  - dingen naast elkaar zetten? --> gebruik flexbox.
+
+  - mijn vraag was: hoe werkt het met "nth-of-type()" wanneer ik 2 HTML pagina's heb
+    - antwoord: voeg een class toe aan de body van een van de twee pagina's (dus geen class toevoegen aan sections ofs).
+      - voorbeeld:
+      class: "anders";
+
+      .anders section:nth-of-type() {
+        
+      }
 
 </details>
 
