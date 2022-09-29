@@ -71,7 +71,7 @@ button a {
 	text-decoration: none;
 	text-transform: uppercase;
 	font-weight: 300;
-	font-size: 17px;
+	font-size: 15px;
 	margin: 5px 10px 5px 10px;
 	padding: 1em;
 }
@@ -89,7 +89,7 @@ button a:hover {
 	font-weight: 500;
 }
 
-button:focus {
+main button:focus {
 	background-color: var(--color-nav-en-nieuwsbrief);
 	border-color: var(--color-dieet);
 	border-width: 0.5em;
@@ -176,12 +176,12 @@ header section:nth-of-type(1) img:nth-of-type(1) {
 	position: absolute;
 
 	top: 0.5em;
-	left: 16.5em;
+	left: 10.6em;
 
 	z-index: -1;
 
-	min-height: 2.5em;
-	max-width: 2.8em;
+	max-width: 2.4em;
+	min-height: 2.2em;
 
 	opacity: 0.3;
 }
@@ -190,20 +190,20 @@ header section:nth-of-type(1) img:nth-of-type(1) {
 header section:nth-of-type(2) img:nth-of-type(1) {
 	position: absolute;
 
-	left: 10.5em;
-	top: 5.9em;
+	left: 6.3em;
+	top: 5.2em;
 
 	z-index: 1;
 
-	max-width: 1.3em;
+	max-width: 1.1em;
 }
 
 /* pijltje icoon bij eetschema button */
 header section:nth-of-type(2) img:nth-of-type(2) {
 	position: absolute;
 
-	right: 10.7em;
-	top: 6em;
+	right: 6.3em;
+	top: 5.2em;
 
 	z-index: 1;
 
@@ -213,8 +213,8 @@ header section:nth-of-type(2) img:nth-of-type(2) {
 header section:nth-of-type(2) img:nth-of-type(2):hover {
 	position: absolute;
 
-	right: 10.4em;
-	top: 6em;
+	right: 6em;
+	top: 5.2em;
 
 	z-index: 1;
 
@@ -230,11 +230,11 @@ header p {
 	text-transform: uppercase;
 	font-family: Arial, Helvetica, sans-serif;
 	font-weight: 600;
-	font-size: 1em;
+	font-size: 11px;
 	text-align: center;
 
 	background-color: var(--color-dieet);
-	max-width: 18em;
+	min-width: 18em;
 	padding: 1em 2em 1em 2em;
 	border-radius: 3em;
 }
@@ -243,6 +243,7 @@ header p {
 header section:nth-of-type(2) {
 	background-color: var(--color-background-second);
 	padding: 0.1em;
+	margin-bottom: 0.5em;
 }
 
 
@@ -257,13 +258,15 @@ header section:nth-of-type(2) {
 h2:nth-of-type(1) {
 	position: absolute;
 
-	top: 13.5em;
-	left: 0.7em;
+	top: 15.5em;
+	left: 1.5em;
 
 	background-color: white;
 	max-width: 10em;
 	padding: 10px 5px 10px 5px;
+
 	text-align: center;
+	font-size: 15px;
 }
 
 /* afbeelding wraps met kip als hoofdgerecht van vandaag */
@@ -277,10 +280,10 @@ main section:nth-of-type(1) img {
 main section:nth-of-type(1) img:nth-of-type(2) {
 	position: absolute;
 
-	top: 11.3em;
-	right: 2.2em;
+	top: 9.5em;
+	right: 1.7em;
 
-	width: 3em;
+	width: 1.7em;
 }
 
 @keyframes hart-favorieten-hoofdgerecht-animation {
@@ -319,19 +322,23 @@ main section:nth-of-type(1) img:nth-of-type(2):hover {
 main section:first-child nav:first-child img {
 	position: absolute;
 
-	bottom: 14.3em;
-	right: 5em;
+	bottom: 6.2em;
+	right: 2.6em;
 
-	width: 3.5em;
-	height: 3.5em;
+	width: 2.2em;
 }
 
 /* "recept" button om naar de recept van de dag te gaan */
 section:nth-of-type(1) button:nth-of-type(1) {
 	position: absolute;
 
-	right: 3em;
-	top: 33em;
+	right: 1.5em;
+	top: 20em;
+	max-width: 8em;
+}
+
+section:nth-of-type(1) button a:nth-of-type(1) {
+	font-size: 13px;
 }
 
 section:nth-of-type(1) button:nth-of-type(1):hover {
@@ -342,13 +349,13 @@ section:nth-of-type(1) button:nth-of-type(1):hover {
 nav input {
 	position: absolute;
 
-	top: 17em;
-	left: 10em;
+	top: 12em;
+	left: 6.5em;
 
-	border-radius: 2em;
+	border-radius: 1em;
 
-	min-width: 30em;
-	min-height: 3em;
+	min-width: 15em;
+	min-height: 2em;
 
 	text-align: center;
 }
@@ -364,15 +371,15 @@ nav input {
 h3 {
 	text-transform: uppercase;
 	text-align: center;
-	font-size: 30px;
+	font-size: 22px;
 
 	margin-top: 3em;
-	margin-bottom: 3em;
+	margin-bottom: 1em;
 }
 
 /* afbeeldingen recepten van "nieuwe recepten & blogs" */
 main section:nth-of-type(2) img {
-	height: 120px;
+	height: 80px;
 }
 
 /* de afbeeldingen naast elkaar zetten */
@@ -381,9 +388,14 @@ section:nth-of-type(2) ul {
 
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	grid-gap: 1em;
+	grid-gap: 0.5em;
 
-	padding: 0 0 0 0.5em;
+	padding-left: 0.2em;
+}
+
+/* titels van recepten onderaan de afbeeldingen */
+section:nth-of-type(2) li a{
+	font-size: 1.1em;
 }
 
 
@@ -408,20 +420,29 @@ main section:nth-of-type(3) h3 {
 
 main section:nth-of-type(3) ul {
 	list-style-type: square;
+	padding-right: 1em;
+
 	font-family: 'Nunito Sans', sans-serif;
+	font-size: 13px;
 }
 
 main section:nth-of-type(3) p {
 	padding-right: 1em;
+
+	font-size: 13px;
 }
 
 /* plaatje van Sandra */
 main section:nth-of-type(3) img {
-	width: 137px;
+	width: 110px;
 	float: left;
 	margin-right: 2.5em;
+	margin-left: 1em;
 }
 
+main section:nth-of-type(3) button {
+	margin-left: 12em;
+}
 
 
 
@@ -433,7 +454,7 @@ main section:nth-of-type(3) img {
 
 /* afbeeldingen van de section "nieuwe recepten & blogs */
 main section:nth-of-type(4) img {
-	height: 120px;
+	height: 80px;
 }
 
 /* afbeeldingen naast elkaar zetten */
@@ -442,9 +463,9 @@ section:nth-of-type(4) ul {
 
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	grid-gap: 1em;
+	grid-gap: 0.5em;
 
-	padding: 0 0 0 0.5em;
+	padding-left: 0.2em;
 }
 
 
@@ -470,10 +491,14 @@ main section:nth-of-type(5) h3 {
 main section:nth-of-type(5) ul {
 	list-style-type: square;
 	font-family: 'Nunito Sans', sans-serif;
+	font-size: 13px;
 }
 
 main section:nth-of-type(5) p {
 	padding-left: 1em;
+	max-width: 26em;
+
+	font-size: 13px;
 }
 
 /* button "webshop" */
@@ -491,7 +516,7 @@ main section:nth-of-type(5) button {
 
 /* afbeeldingen van de section "populaire thema's */
 main section:nth-of-type(6) img {
-	width: 230px;
+	width: 160px;
 }
 
 /* afbeeldingen naast elkaar zetten */
@@ -500,10 +525,10 @@ section:nth-of-type(6) ul {
 
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	grid-gap: 1em;
+	grid-gap: 0.5em;
 
 	padding: 0 0 0 0.5em;
-	margin-left: 1em;
+	margin-left: 0.1em;
 }
 
 section:nth-of-type(6) ul li {
@@ -514,37 +539,42 @@ section:nth-of-type(6) ul li {
 section:nth-of-type(6) ul a {
 	background-color: var(--color-background-third);
 
+	font-size: 15px;
 	font-weight: 800;
 
-	max-width: 150px;
+	max-width: 110px;
 	border-radius: 0.4em;
 	text-align: center;
-	padding: 5px;
+	padding: 2px;
 	
 	position: absolute;
-    left: 2em;
-    right: 0;
-    top: 3em;
+    left: 1.6em;
+    right: 1em;
+    top: 2em;
+}
+
+section:nth-of-type(6) ul a:hover {
+	color: black;
 }
 
 /* button "bekijk alle thema's" positioneren in het midden */
 section:nth-of-type(6) button {
 	position: absolute;
-	left: 15em;
+	left: 5.5em;
 }
 
 
 
 
 
-/*********************************************/
-/** SECTION DE NIEUWSTE RECEPTEN IN JE MAIL **/
-/*********************************************/
+/**********************************/
+/** SECTION PERSOONLIJK WEEKMENU **/
+/**********************************/
 
 /* section onderscheid maken */
 main section:nth-of-type(7) {
 	background-color: var(--color-background-third);
-	padding-bottom: 1em;
+	padding-bottom: 0.5em;
 	margin-top: 9em;
 }
 
@@ -554,10 +584,36 @@ main section:nth-of-type(7) h3 {
 	margin-bottom: 1em;
 }
 
-main section:nth-of-type(7) p:nth-of-type(1) {
-	padding-left: 1em;
-	padding-right: 1em;
+main section:nth-of-type(7) img {
+	width: 80px;
+	float: left;
+	margin-left: 0.5em;
 }
+
+main section:nth-of-type(7) p:nth-of-type(1) {
+	padding-left: 8em;
+	padding-right: 1em;
+
+	font-size: 13px;
+}
+
+main section:nth-of-type(7) ul {
+	list-style-type: square;
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 13px;
+
+	padding-right: 1em;
+	margin-left: 5em;
+	margin-bottom: 4em;
+}
+
+section:nth-of-type(7) button {
+	position: absolute;
+	left: 14em;
+
+	margin-top: 1em;
+}
+
 
 
 
@@ -566,42 +622,37 @@ main section:nth-of-type(7) p:nth-of-type(1) {
 /** SECTION SANDRA'S WEEKMENU SLIDER **/
 /**************************************/
 
-/* section onderscheid maken */
+/* section onderscheid maken en de slider */
 main section:nth-of-type(9) {
 	background-color: var(--color-background-second);
-}
-
-/* dagen titels van de weekmenu */
-main section:nth-of-type(9) h4 {
-	text-transform: uppercase;
-	font-size: 25px;
 
 	display: flex;
-	flex-direction: row;
+	height: 280px;
 
-	margin-bottom: 0.25em;
-}
-
-/* slider met alles naast elkaar gezet */
-main section:nth-of-type(9) {
-	display: flex;
-	height: 300px;
-
-
-	margin-top: 2em;
 	margin-bottom: 2em;
 
 	overflow-x: auto;
 }
 
+/* dagen titels van de weekmenu */
+main section:nth-of-type(9) h4 {
+	text-transform: uppercase;
+	font-size: 20px;
+
+	display: flex;
+	flex-direction: row;
+
+	margin-bottom: 0.5em;
+}
+
 /* ruimte tussen de dagelijkse recepten */
 main section:nth-of-type(9) article {
-	padding: 0em 1.5em 0em 1.5em;
+	padding: 0em 1em 0em 1em;
 }
 
 /* plaatjes */
 main section:nth-of-type(9) img {
-	width: 300px;
+	width: 240px;
 }
 
 /* recept namen onder de plaatjes */
@@ -643,18 +694,45 @@ footer section:nth-of-type(1) h3 {
 }
 
 footer section:nth-of-type(1) p {
-	margin-left: 0.5em;
+	margin: 1em;
+	font-size: 15px;
 }
 
 footer section:nth-of-type(1) input {
-	min-width: 25em;
+	min-width: 20em;
 	height: 3em;
+
 	border-radius: 1em;
 	margin-bottom: 1em;
 
 	font-size: 1em;
 	letter-spacing: 0.1em;
 	text-align: center;
+}
+
+footer section input:nth-of-type(2) {
+	background-color: black;
+	color: white;
+
+	border-radius: 2em;
+
+	text-transform: uppercase;
+	font-size: 15px;
+	font-weight: 300;
+}
+
+footer section input:nth-of-type(2):hover {
+	background-color: var(--color-nav-en-nieuwsbrief);
+
+	transform: rotate(-3deg);
+	font-size: 18px;
+	font-weight: 500;
+}
+
+footer section input:nth-of-type(2):focus {
+	background-color: var(--color-nav-en-nieuwsbrief);
+	border-color: var(--color-dieet);
+	border-width: 0.5em;
 }
 
 
@@ -669,6 +747,7 @@ footer section:nth-of-type(1) input {
 footer section:nth-of-type(2) nav ul {
 	display: flex;
 	justify-content: space-between;
+	
 	gap: 2em;
 
 	list-style-type: none;
@@ -684,8 +763,17 @@ footer section:nth-of-type(2) li a {
 	text-transform: uppercase;
 	font-size: 15px;
 
+	align-items: center;
+}
+
+/* iconen boven titels centreren */
+footer section:nth-of-type(2) li {
+	margin-left: auto;
+	margin-right: auto;
+
 	display: flex;
-	padding-right: 35px;
+	flex-direction: column;
+	align-items: center;
 }
 
 footer section:nth-of-type(2) li a:hover {
@@ -694,7 +782,7 @@ footer section:nth-of-type(2) li a:hover {
 
 /* iconen van nav balk */
 footer section:nth-of-type(2) img {
-	width: 35px;
+	width: 25px;
 }
 
 
@@ -715,7 +803,7 @@ footer section:nth-of-type(2) button {
 	border-color: var(--color-dieet);
 	border-radius: 0.5em;
 
-	font-size: 15px;
+	font-size: 13px;
 	text-transform: uppercase;
 	font-weight: 200;
 
@@ -727,7 +815,7 @@ footer section:nth-of-type(2) button:hover {
 	background-color: var(--color-background-second);
 	border-color: var(--color-background-second);
 
-	font-size: 1.1em;
+	font-size: 1em;
 	font-weight: 500;
 }
 
@@ -739,27 +827,18 @@ footer section:nth-of-type(2) button:hover {
 /** ACHTERGROND MUZIEKJE GELUIDSKNOP**/
 /*************************************/
 
-/* geluid knoppen styling en positioneren */
-footer section:nth-of-type(3) img {
-	position: fixed;
-	top: 3.8em;
-	right: 1em;
-
+/* geluid knoppen styling */
+footer section:nth-of-type(3) img { 
 	border-radius: 0.5em;
 	padding: 0.5em;
 
 	background-color: var(--color-dieet);
-	width: 3em;
+
+	width: 2.3em;
 }
 
-footer section:nth-of-type(3) img:nth-of-type(1) {
+footer section:nth-of-type(3) img:nth-of-type(1), img:nth-of-type(2) {
 	position: fixed;
-	top: 3.8em;
-	right: 1em;
-}
-
-footer section:nth-of-type(3) img:nth-of-type(2) {
-	position: fixed;
-	top: 3.8em;
-	right: 1em;
+	top: 2.5em;
+	right: 0.5em;
 }
