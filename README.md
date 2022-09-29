@@ -279,7 +279,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Bril met bedekt vizier en alleen een puntje waar je door kan kijken:
   Dit ging eigenlijk beter dan verwacht. Het was wazig maar nog wel een beetje te doen. De kleine p teksten waren wel wat onleesbaar. Het geluidsknopje kon ik niet goed zien toen het ging switchen tussen "geen geluid" icoontje en "wel geluid" icoontje. Dat was moeilijk te volgen. In dark mode kon ik slecht de namen van recepten lezen van de sectie "Populaire thema's" wanneer ik er overheen hoverde met de cursor. De blauwe letterkleur met het gele op de achtergrond geeft geen hoog contrast.
 
-  <img src="readme-images/wazigeBril.PNG" width="375px" alt="afbeelding die ik heb gemaakt tijdens het testen met blurry effect.">
+  <img src="readme-images/wazigBril.PNG" width="375px" alt="afbeelding die ik heb gemaakt tijdens het testen met blurry effect.">
 
   <img src="readme-images/wazigeBril_pTekst.PNG" width="375px" alt="afbeelding die ik heb gemaakt tijdens het testen met blurry effect.">
 
@@ -344,10 +344,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Site moet wel via Google Chrome goed te zien zijn dus ik moet wel even opnieuw positioneren etc. 
+  - Vraag over Javascript met de geluidsknop moet even bij de Eva's via Teams vragen.
 
 </details>
 
