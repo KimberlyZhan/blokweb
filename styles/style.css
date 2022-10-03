@@ -29,8 +29,8 @@ summary {
 	/* kleuren light mode */
 	--color-background-second: #e7eeed;
 	--color-background-third: #fceed0;
-	--color-dieet: #ffc1c1;
-	--color-nav-en-nieuwsbrief: #64827d;
+	--color-pink: #ffc1c1;
+	--color-green: #64827d;
 }
 
 
@@ -77,8 +77,8 @@ button a {
 }
 
 button:hover {
-	background-color: var(--color-nav-en-nieuwsbrief);
-	border-color: var(--color-nav-en-nieuwsbrief);
+	background-color: var(--color-green);
+	border-color: var(--color-green);
 
 	transform: rotate(-3deg);
 }
@@ -90,8 +90,8 @@ button a:hover {
 }
 
 main button:focus {
-	background-color: var(--color-nav-en-nieuwsbrief);
-	border-color: var(--color-dieet);
+	background-color: var(--color-green);
+	border-color: var(--color-pink);
 	border-width: 0.5em;
 }
 
@@ -103,13 +103,13 @@ section li a {
 }
 
 section li a:hover {
-	color: var(--color-nav-en-nieuwsbrief);
+	color: var(--color-green);
 	font-weight: 600;
 	text-decoration: underline;
 }
 
 section li a:focus {
-	border: solid 0.1em var(--color-nav-en-nieuwsbrief);
+	border: solid 0.1em var(--color-green);
 	padding: 0.2em;
 }
 
@@ -128,8 +128,8 @@ section li a:focus {
 
 		--color-background-second: #5c7973;
 		--color-background-third: #af8a3a;
-		--color-dieet: #d34747;
-		--color-nav-en-nieuwsbrief: #10af95;
+		--color-pink: #d34747;
+		--color-green: #10af95;
 	}
 
 	header p {
@@ -145,12 +145,12 @@ section li a:focus {
 	}
 
 	section li a:hover {
-		color: var(--color-nav-en-nieuwsbrief);
+		color: var(--color-green);
 	}
 
 	button:hover {
-		background-color: var(--color-nav-en-nieuwsbrief);
-		border-color: var(--color-nav-en-nieuwsbrief);
+		background-color: var(--color-green);
+		border-color: var(--color-green);
 	}
 }
 
@@ -233,7 +233,7 @@ header p {
 	font-size: 11px;
 	text-align: center;
 
-	background-color: var(--color-dieet);
+	background-color: var(--color-pink);
 	min-width: 18em;
 	padding: 1em 2em 1em 2em;
 	border-radius: 3em;
@@ -670,7 +670,7 @@ main section:nth-of-type(9) a {
 }
 
 main section:nth-of-type(9) a:hover {
-	color: var(--color-nav-en-nieuwsbrief);
+	color: var(--color-green);
 	font-weight: 600;
 	text-decoration: underline;
 }
@@ -722,7 +722,7 @@ footer section input:nth-of-type(2) {
 }
 
 footer section input:nth-of-type(2):hover {
-	background-color: var(--color-nav-en-nieuwsbrief);
+	background-color: var(--color-green);
 
 	transform: rotate(-3deg);
 	font-size: 18px;
@@ -730,8 +730,8 @@ footer section input:nth-of-type(2):hover {
 }
 
 footer section input:nth-of-type(2):focus {
-	background-color: var(--color-nav-en-nieuwsbrief);
-	border-color: var(--color-dieet);
+	background-color: var(--color-green);
+	border-color: var(--color-pink);
 	border-width: 0.5em;
 }
 
@@ -752,10 +752,11 @@ footer section:nth-of-type(2) nav ul {
 
 	list-style-type: none;
 
-	background-color: var(--color-nav-en-nieuwsbrief);
+	background-color: var(--color-green);
 
 	padding-top: 0.5em;
 	padding-bottom: 0.5em;
+	margin: 0;
 }
 
 /* namen van nav balk */
@@ -799,8 +800,8 @@ footer section:nth-of-type(2) button {
 	top: 0.5em;
 	right: 0.5em;
 
-	background-color: var(--color-dieet);
-	border-color: var(--color-dieet);
+	background-color: var(--color-pink);
+	border-color: var(--color-pink);
 	border-radius: 0.5em;
 
 	font-size: 13px;
@@ -823,22 +824,373 @@ footer section:nth-of-type(2) button:hover {
 
 
 
-/*************************************/
-/** ACHTERGROND MUZIEKJE GELUIDSKNOP**/
-/*************************************/
+/**************************************/
+/** ACHTERGROND MUZIEKJE GELUIDSKNOP **/
+/**************************************/
 
 /* geluid knoppen styling */
 footer section:nth-of-type(3) img { 
+	position: fixed;
+	top: 2.5em;
+	right: 0.5em;
+
 	border-radius: 0.5em;
 	padding: 0.5em;
 
-	background-color: var(--color-dieet);
+	background-color: var(--color-green);
 
 	width: 2.3em;
 }
 
-footer section:nth-of-type(3) img:nth-of-type(1), img:nth-of-type(2) {
+
+
+
+
+/***********************************************************/
+/***********************************************************/
+/***********//** TWEEDE PAGINA DETAIL RECEPT **//***********/
+/***********************************************************/
+/***********************************************************/
+
+/**********************/
+/** INFO OVER RECEPT **/
+/**********************/
+
+.tweede-pagina main section:nth-of-type(2){
+	background-color: white;
+	padding-top: 0.1em;
+}
+
+.tweede-pagina main section:nth-of-type(2) ul{
+	display: block;
+	display: flex;
+	justify-content: space-around;
+
+	margin-top: 0.3em;
+}
+	
+.tweede-pagina main section:nth-of-type(2) p{
+	text-transform: uppercase;
+	font-size: 10px;
+	color: black;
+
+	margin-top: 0;
+}
+
+/* iconen onder gerecht */
+.tweede-pagina main section:nth-of-type(2) img:nth-of-type(1){
+	width: 30px;
+	height: 30px;
+}
+
+.tweede-pagina main section:nth-of-type(2) img:nth-of-type(2){
+	width: 30px;
+	height: 30px;
+}
+
+.tweede-pagina main section:nth-of-type(2) img:nth-of-type(3){
+	width: 30px;
+	height: 50px;
+}
+
+.tweede-pagina main section:nth-of-type(2) img:nth-of-type(4){
+	width: 30px;
+	height: 30px;
+}
+
+/* omschrijving recept */
+.tweede-pagina main section:nth-of-type(3){
+	background-color: transparent;
+}
+
+.tweede-pagina main section:nth-of-type(3) p{
+	font-size: 18px;
+	font-style: italic;
+	text-align: center;
+}
+
+
+
+
+
+/***********************/
+/** INGREDIENTENLIJST **/
+/***********************/
+
+.tweede-pagina main section:nth-of-type(4) h4{
+	font-size: 23px;
+	margin-left: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+/* min en plus buttons */
+.tweede-pagina main section:nth-of-type(4) button{
+	min-height: 3em;
+	min-width: 3em;
+	border-radius: 2em;
+	border-color: var(--color-green);
+
+	background-color: var(--color-green);
+}
+
+.tweede-pagina main section:nth-of-type(4) button p{
+	color: white;
+	font-size: 24px;
+	margin: 0;
+}
+
+/* aantal personen */
+.tweede-pagina main section:nth-of-type(4) p{
+	color: white;
+	font-size: 19px;
+	margin: 0.5em 1em 0 1em;
+}
+
+/* buttons en 4 personen naast elkaar zetten */
+.tweede-pagina main section:nth-of-type(4) div{
+	display: flex;
+	margin-bottom: 1em;
+}
+
+/* ingredienten */
+.tweede-pagina main section:nth-of-type(4) form{
+	display: grid;
+	margin-left: 0.5em;
+}
+
+.tweede-pagina main section:nth-of-type(4) label{
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 18px;
+}
+
+
+
+
+
+/*************************/
+/** DIRECT IN JE MANDJE **/
+/*************************/
+
+.tweede-pagina main section:nth-of-type(5){
+	background-color: transparent;
+	margin-top: 3em;
+}
+
+.tweede-pagina main section:nth-of-type(5) img{
+	width: 70px;
+	border-radius: 1em;
+	margin-left: 1em;
+	margin-top: 0;
+}
+
+.tweede-pagina main section:nth-of-type(5) p{
+	font-size: 18px;
+	margin-bottom: 0.5em;
+}
+
+
+
+
+
+/***************/
+/** BEREIDING **/
+/***************/
+
+.tweede-pagina main section:nth-of-type(6){
+	background-color: transparent;
+	margin-top: 3em;
+}
+
+.tweede-pagina main section:nth-of-type(6) h4{
+	font-size: 23px;
+	margin-left: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.tweede-pagina main section:nth-of-type(6) form{
+	display: grid;
+	margin-left: 0.5em;
+}
+
+.tweede-pagina main section:nth-of-type(6) label{
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 18px;
+}
+
+
+
+
+
+/***************************/
+/** TAGS KENMERKEN RECEPT **/
+/***************************/
+
+.tweede-pagina main section:nth-of-type(7){
+	background-color: var(--color-pink);
+
+	margin-top: 4em;
+	padding: 1em;
+}
+
+.tweede-pagina main section:nth-of-type(7) a{
+	font-family: 'Nunito Sans', sans-serif;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: white;
+
+	padding: 0.5em;
+
+	border: solid 1px;
+	border-radius: 2em;
+	border-color: white;
+}
+
+
+
+
+
+/*****************/
+/** OVER SANDRA **/
+/*****************/
+
+/* border om section */
+.tweede-pagina main section:nth-of-type(8){
+	margin: 4em 0.5em 4em 0.5em;
+	border: solid 1px;
+}
+
+.tweede-pagina main section:nth-of-type(8) ul{
+	padding: 1em;
+}
+
+.tweede-pagina main section:nth-of-type(8) li{
+	list-style-type: none;
+	text-align: center;
+}
+
+.tweede-pagina main section:nth-of-type(8) img{
+	width: 100px;
+	border-radius: 50%;
+}
+
+.tweede-pagina main section:nth-of-type(8) li:nth-of-type(2) p{
+	font-family: 'Roboto Slab', serif;
+	font-size: 20px;
+	font-weight: 800;
+}
+
+
+
+
+
+/****************/
+/** OOK LEKKER **/
+/****************/
+
+.tweede-pagina main section:nth-of-type(9){
+	display: block;
+
+	background-color: var(--color-background-second);
+
+	height: auto;
+	margin: 0;
+	padding: 0.5em;
+
+	overflow-x: unset;
+}
+
+.tweede-pagina main section:nth-of-type(9) h3{
+	margin-top: 0;
+}
+
+.tweede-pagina main section:nth-of-type(9) ul{
+	padding-left: 1em;
+}
+
+.tweede-pagina main section:nth-of-type(9) li{
+	display: flex;
+
+	list-style-type: none;
+}
+
+.tweede-pagina main section:nth-of-type(9) img{
+	width: 180px;
+	margin-bottom: 1em;
+}
+
+.tweede-pagina main section:nth-of-type(9) img:nth-of-type(2){
+	position: static;
+}
+
+.tweede-pagina main section:nth-of-type(9) a{
+	color: white;
+	background-color: transparent;
+	text-align: left;
+	padding-left: 0.5em;
+}
+
+.tweede-pagina main section:nth-of-type(9) a:hover{
+	color: var(--color-green);
+	font-weight: 600;
+	text-decoration: underline;
+}
+
+
+
+
+
+/*****************/
+/** KERST THEMA **/
+/*****************/
+
+/* kerstbal button */
+footer section:nth-of-type(4) img{
 	position: fixed;
-	top: 2.5em;
+	top: 5em;
 	right: 0.5em;
+
+	border-radius: 0.5em;
+	padding: 0.2em;
+
+	background-color: var(--color-green);
+
+	width: 2.5em;
+}
+
+.hidden{
+	visibility: hidden;
+}
+
+.kerst-thema-canvas{
+	position: relative;
+	z-index: 1;
+}
+
+.sneeuw-bg{
+	position: absolute;
+	width: 300px;
+	left: 5em;
+	top: 2em;
+}
+
+.kerst-hoekje{
+	position: absolute;
+	width: 150px;
+	left: -2em;
+	top: -1em;
+}
+
+.kerstman-met-slee{
+	position: absolute;
+	width: 150px;
+	top: 18em;
+	right: 2em;
+}
+
+.kerst-ster{
+	position: absolute;
+	width: 70px;
+	top: 17em;
+	left: 1em;
+	transform: rotate(-20deg);
 }
