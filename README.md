@@ -131,13 +131,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 2e werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/breakdown1.png" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+  <img src="readme-images/breakdown2.png" width="375px" alt="breakdown van een dynamisch deel">
 
   ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+  <img src="readme-images/breakdown3.png" width="375px" alt="breakdown van nog een dynamisch deel">
 
 </details>
 
@@ -269,6 +269,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
 
+  Pijltjes waar je op kan klikken om naar links of rechts te scrollen in een horizontale slider.
+
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
   Hier korte omschrijving (met indien nodig afbeeldingen)
@@ -346,6 +348,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   - Site moet wel via Google Chrome goed te zien zijn dus ik moet wel even opnieuw positioneren etc. 
   - Vraag over Javascript met de geluidsknop moet even bij de Eva's via Teams vragen.
+  - Iconen staan mooi recht in het midden boven de titels in de navigatiebalk onderaan de pagina met hulp van studentassistente.
+  - Button kleur veranderd van "aanmelden" knop in nieuwsbrief met hulp van studentassistente.
 
 </details>
 
@@ -359,19 +363,50 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/site_character1.png" width="375px" alt="uitkomst opdracht 1">
+  <img src="readme-images/site_character2.png" width="375px" alt="uitkomst opdracht 1">
+  <img src="readme-images/site_character3.png" width="375px" alt="uitkomst opdracht 1">
 
 
   ### Dit ging goed/Heb ik geleerd: 
   Korte omschrijving met plaatjes
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  <img src="readme-images/GELEERD_root_darkMode.png" width="375px" alt="top/geleerd">
+  Ik heb geleerd wat een :root is en dat je ook Dark Mode kan coderen. Ik wist niet dat dat kon! Heel gaaf. Dark Mode is me goed gelukt, alleen ik wist eerst niet welke kleuren ik voor Dark Mode wilde gebruiken. Ik wilde dichtbij de "originele" kleuren blijven en ook genoeg contrast behouden met de kleur van teksten.
 
+  <img src="readme-images/GELEERD_overflow_slider.png" width="375px" alt="top/geleerd">
+  Ik heb geleerd hoe je een horizontale slider kan maken met HTML en CSS. Ik had nog nooit met "overflow" gewerkt. 
+
+  <img src="readme-images/GELEERD_nthOfType_grid_var.png" width="375px" alt="top/geleerd">
+  <img src="readme-images/GELEERD_grid_light.png" width="375px" alt="top/geleerd">
+  <img src="readme-images/GELEERD_grid_dark.png" width="375px" alt="top/geleerd">
+  Ik heb geleerd hoe je var() kan gebruiken voor je huisstijl kleuren wat handiger is dan dat je bepaalde kleuren codes met allerlei nummers en letters uit je hoofd moet leren of steeds copy+paste moet doen. Ook kan je in een keer je huisstijl kleuren aanpassen. Ik heb ook geleerd hoe je display: grid; moet gebruiken Ik vind grid echt heel erg lastig. Ik heb grid gebruikt om bijvoorbeeld mijn afbeeldingen in twee kolommen naast elkaar te zetten. Ook heb ik ":nth-of-type()" geleerd. Voor mij is nth-of-type helemaal nieuw. Eerst had ik er wat moeite mee, want ik wist niet zo goed hoe je een specifieke tag moest "selecteren" met nth-of-type. Omdat je bij deze opdracht niet zomaar classes, id's en div'jes mag gebruiken, werd ik geforceerd om nth-of-type continu te gebruiken en ik kreeg het uiteindelijk onder de knie. 
+
+  <img src="readme-images/GELEERD_forms.png" width="375px" alt="top/geleerd">
+  <img src="readme-images/GELEERD_forms_code.png" width="375px" alt="top/geleerd">
+  Ik heb voor het eerst forms en labels met input gebruikt. Op de een of andere manier vond ik het altijd verwarrend of forms en labels altijd samen worden gebruikt en ik wist eerst niet goed hoe je forms uberhaupt moest gebruiken. En met input heb je ook nog verschillende soorten "type"? Met dingen als submit etc. wat ik niet goed snapte.
+
+  <img src="readme-images/GELEERD_aria.png" width="375px" alt="top/geleerd">
+  Ik heb geleerd dat aria-labels bestaan en heb geleerd in welke gevallen je ze kan gebruiken en hoe je ze moet gebruiken. Erg handig!
+
+  <img src="readme-images/GELEERD" width="375px" alt="top/geleerd">
+  Ik heb geleerd hoe je animations kan maken met keyframes. Het is even denken met die dingen 0% tot 100% en alles daartussen, maar de huiswerk opdrachten hebben me goed geholpen.
 
   ### Dit was lastig/Is niet gelukt:
   Korte omschrijving met plaatjes
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  <img src="readme-images/LASTIG_aanpassingen.png" width="375px" alt="bummer">
+  Ik vond het lastig om deze section zo eruit te laten zien met de plaatjes links en titels rechts en alles mooi uitgelijnd en recht. Dit is een section van de tweede pagina (recept.html) waar ik een class aan de body heb toegevoegd om CSS te kunnen "scheiden" van de eerste en tweede HTML pagina met zo min mogelijk gebruik van classes. Toen ik aan de CSS styling van de tweede pagina wilde beginnen, waren een paar dingen al gestyled omdat CSS al een beetje styling had overgenomen van de eerste pagina CSS. Ik vond het toen moeilijk om van bepaalde CSS styling de "originele"/"basic"/"default status in te typen. Ik heb dus ontdekt dat de default van "background-color" gewoon "transparent" is en de default van "overflow-x" is "unset". En om "display: grid;" soortvan weg te halen moet je "default: block;" gebruiken volgens mij. Ook geleerd dat je "position: static;" moet gebruiken om "position: absolute;" uit te cancelen. Ik zou nooit achter dit soort dingetjes zijn gekomen als ik wel met zoveel mogelijk classes etc. mocht werken.
+
+  <img src="readme-images/LASTIG_iconen.png" width="375px" alt="bummer">
+  Ik vodn het lastig om de iconen (images) recht boven de titels/texts te zetten. Dus het ziet er niet heel netjes en strak uit.
+
+  <img src="readme-images/LASTIG_javascript_kerst.png" width="375px" alt="bummer">
+  Ik had wat struggles met mijn kerst thema aan en uit roepen. Ik had wat rond gespeeld met Javascript en if-else statements. Het aanroepen van mijn kerst thema, waarbij verschillende hidden images tevoorschijn kwamen, ging opzich goed. Maar wanneer ik weer op mijn kerst thema button wilde klikken, gingen de hidden images niet meer weg. Ik kon nergens anders op mijn scherm klikken van mijn site. Ik kon toen alleen mijn kerst thema weghalen door mijn site te refreshen. Ik heb de studentassistente gevraagd en het werkt nu wel! Alleen (bij mij tenminste) kan ik mijn kerst thema aan- en uitklikken wanneer ik niet in de "responsive mode" van Google Chrome's inspect optie zit. Helaas heb ik nog wel wat flaws met mijn kerst thema want zodra ik het aan heb geklikt, worden de buttons (menu, achtergrondgeluid knopje en kerst thema knopje) helemaal uit beeld geduwd naar de rechterkant. Dus het werkt nog niet helemaal 100% perfect.
+
+  <img src="readme-images/SLECHT_hidden_plaatjes.png" width="375px" alt="bummer">
+  Wanneer kerst thema aan wordt gezet, dan verdwijnen de 3 buttons (menu, achtergrondgeluid knopje en kerst thema knopje) helemaal uit beeld aan de rechterkant. Je moet dan naar rechts scrollen (buiten iPhone SE veld). Ik snap niet waarom alle drie de buttons weg worden geduwd maar ik denk dat het komt door de position: absolute; wat naast elementen worden geplaatst die position: fixed; hebben, denk ik?
+
 </details>
 
 
@@ -397,5 +432,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   10. hamburger menu icoon: https://icon-icons.com/nl/pictogram/hamburger-knop-menu/155296
   11. wit hartje voor favorieten: https://www.clipartmax.com/middle/m2i8i8m2G6m2H7b1_free-transparent-clipart-png-transparent-icons-heart-icon-png-white/
   12. kruisje icoon menu: https://icon-icons.com/nl/pictogram/kruis-symbool/74149
-
+  13. cooking mama achtergrond muziekje: https://youtu.be/hu84AJmn43I
+  14. kerst bal: https://dribbble.com/shots/2393762-Christmas-Icons-Full-Set-Free-download
+  15. sneeuw: https://www.freepik.com/free-photos-vectors/snow-falling-transparent
+  16. kerstman met slee en rendieren: https://www.downloadclipart.net/browse/75564/santa-sleigh-png-photo-clipart
+  17. kerst decoratie hoekje: https://www.dlf.pt/ddetail/ihwxJow_christmas-decorations-clipart-transparent-cartoons-christmas-decorations-transparent/
+  18. kerst ster: https://www.freeiconspng.com/images/christmas-star-png
+  19. verbod symbool: https://www.pngwing.com/en/free-png-zcyrx
+  20. kerst achtergrond muziekje: https://youtu.be/R1gskElaLNo
+  21. AH logo: https://boodschappenaanbiedingen.com
 </details>
