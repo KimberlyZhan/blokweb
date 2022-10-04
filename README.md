@@ -389,7 +389,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <img src="readme-images/GELEERD_aria.png" width="375px" alt="top/geleerd">
   Ik heb geleerd dat aria-labels bestaan en heb geleerd in welke gevallen je ze kan gebruiken en hoe je ze moet gebruiken. Erg handig!
 
-  <img src="readme-images/GELEERD" width="375px" alt="top/geleerd">
+  <img src="readme-images/GELEERD_animations.png" width="375px" alt="top/geleerd">
   Ik heb geleerd hoe je animations kan maken met keyframes. Het is even denken met die dingen 0% tot 100% en alles daartussen, maar de huiswerk opdrachten hebben me goed geholpen.
 
   ### Dit was lastig/Is niet gelukt:
