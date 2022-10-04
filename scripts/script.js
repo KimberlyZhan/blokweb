@@ -1,10 +1,10 @@
 // JavaScript Document
 console.log("hi");
 
-//------------------- voor de achtergrond muziek -------------------//
+//------------------- voor de achtergrond muziek cooking mama -------------------//
 var achtergrondMuziek = new Audio("audio/cooking_mama_bg_music.mp3");
 var geluidIcoon = document.querySelector(".wel-geluid-icoon");
-var muziekStatus = "aan";
+var muziekStatus = "uit";
 
 function muziekjeAan() {
     if (muziekStatus == "uit") {
@@ -31,13 +31,13 @@ var kerstHoek = document.querySelector(".kerst-hoekje");
 
 var kerstMuziek = new Audio("audio/kerst_muziek.mp3");
 
-var kerstThema = "aan";
+var kerstThema = "uit";
 
 
 function kerst() {
     if (kerstThema == "uit") {
         kerstBalButton.src = "images/kerst_bal.png";
-        kerstMuziek.play(); 
+        kerstMuziek.play();
         kerstThema = "aan";
 
         sneeuwBG.hidden = false;
@@ -57,29 +57,3 @@ function kerst() {
 }
 
 kerstBalButton.addEventListener("click", kerst);
-
-// function kerstAan() {
-//     kerstThema = "aan";
-//     kerstBalButton.src = "images/kerst_bal.png";
-//     kerstMuziek.play();
-
-//     sneeuwBG.hidden = false;
-//     kerstman.hidden = false;
-//     kerstSter.hidden = false;
-//     kerstHoek.hidden = false;
-// }
-
-// kerstBalButton.addEventListener("click", kerstAan);
-
-// function kerstUit() {
-//     kerstThema = "uit";
-//     kerstBalButton.src = "images/no_kerst.png";
-//     kerstMuziek.pause();
-
-//     sneeuwBG.hidden = true;
-//     kerstman.hidden = true;
-//     kerstSter.hidden = true;
-//     kerstHoek.hidden = true;
-// }
-
-// geenKerstButton.addEventListener("click", kerstUit);

@@ -394,7 +394,7 @@ section:nth-of-type(2) ul {
 }
 
 /* titels van recepten onderaan de afbeeldingen */
-section:nth-of-type(2) li a{
+section:nth-of-type(2) li a {
 	font-size: 1.1em;
 }
 
@@ -546,11 +546,11 @@ section:nth-of-type(6) ul a {
 	border-radius: 0.4em;
 	text-align: center;
 	padding: 2px;
-	
+
 	position: absolute;
-    left: 1.6em;
-    right: 1em;
-    top: 2em;
+	left: 1.6em;
+	right: 1em;
+	top: 2em;
 }
 
 section:nth-of-type(6) ul a:hover {
@@ -747,7 +747,7 @@ footer section input:nth-of-type(2):focus {
 footer section:nth-of-type(2) nav ul {
 	display: flex;
 	justify-content: space-between;
-	
+
 	gap: 2em;
 
 	list-style-type: none;
@@ -829,7 +829,7 @@ footer section:nth-of-type(2) button:hover {
 /**************************************/
 
 /* geluid knoppen styling */
-footer section:nth-of-type(3) img { 
+footer section:nth-of-type(3) img {
 	position: fixed;
 	top: 2.5em;
 	right: 0.5em;
@@ -846,30 +846,30 @@ footer section:nth-of-type(3) img {
 
 
 
-/***********************************************************/
-/***********************************************************/
-/***********//** TWEEDE PAGINA DETAIL RECEPT **//***********/
-/***********************************************************/
-/***********************************************************/
+/*********************************/
+/*********************************/
+/** TWEEDE PAGINA DETAIL RECEPT **/
+/*********************************/
+/*********************************/
 
 /**********************/
 /** INFO OVER RECEPT **/
 /**********************/
 
-.tweede-pagina main section:nth-of-type(2){
+.tweede-pagina main section:nth-of-type(2) {
 	background-color: white;
 	padding-top: 0.1em;
 }
 
-.tweede-pagina main section:nth-of-type(2) ul{
+.tweede-pagina main section:nth-of-type(2) ul {
 	display: block;
 	display: flex;
 	justify-content: space-around;
 
 	margin-top: 0.3em;
 }
-	
-.tweede-pagina main section:nth-of-type(2) p{
+
+.tweede-pagina main section:nth-of-type(2) p {
 	text-transform: uppercase;
 	font-size: 10px;
 	color: black;
@@ -878,32 +878,32 @@ footer section:nth-of-type(3) img {
 }
 
 /* iconen onder gerecht */
-.tweede-pagina main section:nth-of-type(2) img:nth-of-type(1){
+.tweede-pagina main section:nth-of-type(2) img:nth-of-type(1) {
 	width: 30px;
 	height: 30px;
 }
 
-.tweede-pagina main section:nth-of-type(2) img:nth-of-type(2){
+.tweede-pagina main section:nth-of-type(2) img:nth-of-type(2) {
 	width: 30px;
 	height: 30px;
 }
 
-.tweede-pagina main section:nth-of-type(2) img:nth-of-type(3){
+.tweede-pagina main section:nth-of-type(2) img:nth-of-type(3) {
 	width: 30px;
 	height: 50px;
 }
 
-.tweede-pagina main section:nth-of-type(2) img:nth-of-type(4){
+.tweede-pagina main section:nth-of-type(2) img:nth-of-type(4) {
 	width: 30px;
 	height: 30px;
 }
 
 /* omschrijving recept */
-.tweede-pagina main section:nth-of-type(3){
+.tweede-pagina main section:nth-of-type(3) {
 	background-color: transparent;
 }
 
-.tweede-pagina main section:nth-of-type(3) p{
+.tweede-pagina main section:nth-of-type(3) p {
 	font-size: 18px;
 	font-style: italic;
 	text-align: center;
@@ -917,14 +917,14 @@ footer section:nth-of-type(3) img {
 /** INGREDIENTENLIJST **/
 /***********************/
 
-.tweede-pagina main section:nth-of-type(4) h4{
+.tweede-pagina main section:nth-of-type(4) h4 {
 	font-size: 23px;
 	margin-left: 0.5em;
 	margin-bottom: 0.5em;
 }
 
 /* min en plus buttons */
-.tweede-pagina main section:nth-of-type(4) button{
+.tweede-pagina main section:nth-of-type(4) button {
 	min-height: 3em;
 	min-width: 3em;
 	border-radius: 2em;
@@ -933,32 +933,32 @@ footer section:nth-of-type(3) img {
 	background-color: var(--color-green);
 }
 
-.tweede-pagina main section:nth-of-type(4) button p{
+.tweede-pagina main section:nth-of-type(4) button p {
 	color: white;
 	font-size: 24px;
 	margin: 0;
 }
 
 /* aantal personen */
-.tweede-pagina main section:nth-of-type(4) p{
-	color: white;
+.tweede-pagina main section:nth-of-type(4) p {
+	color: var(--color-text);
 	font-size: 19px;
 	margin: 0.5em 1em 0 1em;
 }
 
 /* buttons en 4 personen naast elkaar zetten */
-.tweede-pagina main section:nth-of-type(4) div{
+.tweede-pagina main section:nth-of-type(4) div {
 	display: flex;
 	margin-bottom: 1em;
 }
 
 /* ingredienten */
-.tweede-pagina main section:nth-of-type(4) form{
+.tweede-pagina main section:nth-of-type(4) form {
 	display: grid;
 	margin-left: 0.5em;
 }
 
-.tweede-pagina main section:nth-of-type(4) label{
+.tweede-pagina main section:nth-of-type(4) label {
 	font-family: 'Nunito Sans', sans-serif;
 	font-size: 18px;
 }
@@ -971,19 +971,19 @@ footer section:nth-of-type(3) img {
 /** DIRECT IN JE MANDJE **/
 /*************************/
 
-.tweede-pagina main section:nth-of-type(5){
+.tweede-pagina main section:nth-of-type(5) {
 	background-color: transparent;
 	margin-top: 3em;
 }
 
-.tweede-pagina main section:nth-of-type(5) img{
+.tweede-pagina main section:nth-of-type(5) img {
 	width: 70px;
 	border-radius: 1em;
 	margin-left: 1em;
 	margin-top: 0;
 }
 
-.tweede-pagina main section:nth-of-type(5) p{
+.tweede-pagina main section:nth-of-type(5) p {
 	font-size: 18px;
 	margin-bottom: 0.5em;
 }
@@ -996,23 +996,23 @@ footer section:nth-of-type(3) img {
 /** BEREIDING **/
 /***************/
 
-.tweede-pagina main section:nth-of-type(6){
+.tweede-pagina main section:nth-of-type(6) {
 	background-color: transparent;
 	margin-top: 3em;
 }
 
-.tweede-pagina main section:nth-of-type(6) h4{
+.tweede-pagina main section:nth-of-type(6) h4 {
 	font-size: 23px;
 	margin-left: 0.5em;
 	margin-bottom: 0.5em;
 }
 
-.tweede-pagina main section:nth-of-type(6) form{
+.tweede-pagina main section:nth-of-type(6) form {
 	display: grid;
 	margin-left: 0.5em;
 }
 
-.tweede-pagina main section:nth-of-type(6) label{
+.tweede-pagina main section:nth-of-type(6) label {
 	font-family: 'Nunito Sans', sans-serif;
 	font-size: 18px;
 }
@@ -1025,14 +1025,14 @@ footer section:nth-of-type(3) img {
 /** TAGS KENMERKEN RECEPT **/
 /***************************/
 
-.tweede-pagina main section:nth-of-type(7){
+.tweede-pagina main section:nth-of-type(7) {
 	background-color: var(--color-pink);
 
 	margin-top: 4em;
 	padding: 1em;
 }
 
-.tweede-pagina main section:nth-of-type(7) a{
+.tweede-pagina main section:nth-of-type(7) a {
 	font-family: 'Nunito Sans', sans-serif;
 	text-transform: uppercase;
 	text-decoration: none;
@@ -1045,6 +1045,10 @@ footer section:nth-of-type(3) img {
 	border-color: white;
 }
 
+.tweede-pagina main section:nth-of-type(7) a:hover {
+	text-decoration: underline;
+}
+
 
 
 
@@ -1054,26 +1058,26 @@ footer section:nth-of-type(3) img {
 /*****************/
 
 /* border om section */
-.tweede-pagina main section:nth-of-type(8){
+.tweede-pagina main section:nth-of-type(8) {
 	margin: 4em 0.5em 4em 0.5em;
 	border: solid 1px;
 }
 
-.tweede-pagina main section:nth-of-type(8) ul{
+.tweede-pagina main section:nth-of-type(8) ul {
 	padding: 1em;
 }
 
-.tweede-pagina main section:nth-of-type(8) li{
+.tweede-pagina main section:nth-of-type(8) li {
 	list-style-type: none;
 	text-align: center;
 }
 
-.tweede-pagina main section:nth-of-type(8) img{
+.tweede-pagina main section:nth-of-type(8) img {
 	width: 100px;
 	border-radius: 50%;
 }
 
-.tweede-pagina main section:nth-of-type(8) li:nth-of-type(2) p{
+.tweede-pagina main section:nth-of-type(8) li:nth-of-type(2) p {
 	font-family: 'Roboto Slab', serif;
 	font-size: 20px;
 	font-weight: 800;
@@ -1087,7 +1091,7 @@ footer section:nth-of-type(3) img {
 /** OOK LEKKER **/
 /****************/
 
-.tweede-pagina main section:nth-of-type(9){
+.tweede-pagina main section:nth-of-type(9) {
 	display: block;
 
 	background-color: var(--color-background-second);
@@ -1099,37 +1103,38 @@ footer section:nth-of-type(3) img {
 	overflow-x: unset;
 }
 
-.tweede-pagina main section:nth-of-type(9) h3{
+.tweede-pagina main section:nth-of-type(9) h3 {
 	margin-top: 0;
 }
 
-.tweede-pagina main section:nth-of-type(9) ul{
+.tweede-pagina main section:nth-of-type(9) ul {
 	padding-left: 1em;
 }
 
-.tweede-pagina main section:nth-of-type(9) li{
+.tweede-pagina main section:nth-of-type(9) li {
 	display: flex;
 
 	list-style-type: none;
 }
 
-.tweede-pagina main section:nth-of-type(9) img{
+.tweede-pagina main section:nth-of-type(9) img {
 	width: 180px;
 	margin-bottom: 1em;
 }
 
-.tweede-pagina main section:nth-of-type(9) img:nth-of-type(2){
+.tweede-pagina main section:nth-of-type(9) img:nth-of-type(2) {
 	position: static;
 }
 
-.tweede-pagina main section:nth-of-type(9) a{
-	color: white;
+.tweede-pagina main section:nth-of-type(9) a {
+	color: var(--color-text);
 	background-color: transparent;
 	text-align: left;
+	padding: 0;
 	padding-left: 0.5em;
 }
 
-.tweede-pagina main section:nth-of-type(9) a:hover{
+.tweede-pagina main section:nth-of-type(9) a:hover {
 	color: var(--color-green);
 	font-weight: 600;
 	text-decoration: underline;
@@ -1144,7 +1149,7 @@ footer section:nth-of-type(3) img {
 /*****************/
 
 /* kerstbal button */
-footer section:nth-of-type(4) img{
+footer section:nth-of-type(4) img {
 	position: fixed;
 	top: 5em;
 	right: 0.5em;
@@ -1157,37 +1162,54 @@ footer section:nth-of-type(4) img{
 	width: 2.5em;
 }
 
-.hidden{
+@keyframes draaiend-kerst-bal {
+	0% {
+		transform: rotate(0deg);
+	}
+
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+footer section:nth-of-type(4) img {
+	animation-name: draaiend-kerst-bal;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+
+/* verborgen plaatjes voor kerst thema */
+.hidden {
 	visibility: hidden;
 }
 
-.kerst-thema-canvas{
+.kerst-thema-canvas {
 	position: relative;
 	z-index: 1;
 }
 
-.sneeuw-bg{
+.sneeuw-bg {
 	position: absolute;
-	width: 300px;
+	width: 500px;
 	left: 5em;
 	top: 2em;
 }
 
-.kerst-hoekje{
+.kerst-hoekje {
 	position: absolute;
 	width: 150px;
 	left: -2em;
 	top: -1em;
 }
 
-.kerstman-met-slee{
+.kerstman-met-slee {
 	position: absolute;
 	width: 150px;
 	top: 18em;
 	right: 2em;
 }
 
-.kerst-ster{
+.kerst-ster {
 	position: absolute;
 	width: 70px;
 	top: 17em;
