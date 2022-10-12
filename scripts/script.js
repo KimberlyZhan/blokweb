@@ -57,3 +57,23 @@ function kerst() {
 }
 
 kerstBalButton.addEventListener("click", kerst);
+
+//------------------------ menu button open ------------------------//
+var openMenuButton = document.querySelector(".menu-button");
+
+function openMenu() {
+    var verborgenMenu = document.querySelector(".verborgen-menu");
+    verborgenMenu.classList.add("toonMenu");
+}
+
+openMenuButton.addEventListener("click", openMenu);
+
+//------------------------ menu button sluit ------------------------//
+var sluitMenuButton = document.querySelector(".sluit-menu-button");
+
+function sluitMenu() {
+    var sluitVerborgenMenu = document.querySelector(".verborgen-menu");
+    sluitVerborgenMenu.classList.remove("toonMenu");
+}
+
+sluitVerborgenMenu.addEventListener("click", sluitMenu);

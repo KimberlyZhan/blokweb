@@ -60,30 +60,29 @@ p {
 	font-family: 'Nunito Sans', sans-serif;
 }
 
-button {
-	background-color: black;
-	border-radius: 1em;
-	border-color: black;
-}
-
-button a {
-	color: white;
-	text-decoration: none;
-	text-transform: uppercase;
+.fake-buttons {
+	font-family: 'Nunito Sans', sans-serif;
 	font-weight: 300;
 	font-size: 15px;
-	margin: 5px 10px 5px 10px;
-	padding: 1em;
+
+	background-color: black;
+	color: white;
+
+	border-radius: 1em;
+	border-color: black;
+
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+
+	padding: 0.5em;
 }
 
-button:hover {
-	background-color: var(--color-green);
-	border-color: var(--color-green);
-
-	transform: rotate(-3deg);
+a.fake-buttons:hover {
+	font-weight: 300;
 }
 
-button a:hover {
+a:hover {
 	color: white;
 	font-size: 18px;
 	font-weight: 500;
@@ -258,7 +257,7 @@ header section:nth-of-type(2) {
 h2:nth-of-type(1) {
 	position: absolute;
 
-	top: 15.5em;
+	top: 16.5em;
 	left: 1.5em;
 
 	background-color: white;
@@ -280,7 +279,7 @@ main section:nth-of-type(1) img {
 main section:nth-of-type(1) img:nth-of-type(2) {
 	position: absolute;
 
-	top: 9.5em;
+	top: 10.7em;
 	right: 1.7em;
 
 	width: 1.7em;
@@ -322,34 +321,26 @@ main section:nth-of-type(1) img:nth-of-type(2):hover {
 main section:first-child nav:first-child img {
 	position: absolute;
 
-	bottom: 6.2em;
-	right: 2.6em;
+	bottom: 35em;
+	right: 4.5em;
 
 	width: 2.2em;
 }
 
-/* "recept" button om naar de recept van de dag te gaan */
-section:nth-of-type(1) button:nth-of-type(1) {
+/* "recept" button om naar de recept van de dag te gaan positionering */
+section:nth-of-type(1) a {
 	position: absolute;
 
-	right: 1.5em;
-	top: 20em;
-	max-width: 8em;
-}
-
-section:nth-of-type(1) button a:nth-of-type(1) {
-	font-size: 13px;
-}
-
-section:nth-of-type(1) button:nth-of-type(1):hover {
-	transform: none;
+	right: 1.7em;
+	top: 18em;
+	min-width: 6em;
 }
 
 /* zoekbalk */
 nav input {
 	position: absolute;
 
-	top: 12em;
+	top: 13em;
 	left: 6.5em;
 
 	border-radius: 1em;
@@ -434,14 +425,14 @@ main section:nth-of-type(3) p {
 
 /* plaatje van Sandra */
 main section:nth-of-type(3) img {
-	width: 110px;
+	width: 125px;
 	float: left;
 	margin-right: 2.5em;
 	margin-left: 1em;
 }
 
-main section:nth-of-type(3) button {
-	margin-left: 12em;
+main section:nth-of-type(3) a {
+	margin-left: 11em;
 }
 
 
@@ -494,16 +485,15 @@ main section:nth-of-type(5) ul {
 	font-size: 13px;
 }
 
+main section:nth-child(5) li:nth-of-type(3) {
+	margin-bottom: 1.5em;
+}
+
 main section:nth-of-type(5) p {
 	padding-left: 1em;
 	max-width: 26em;
 
 	font-size: 13px;
-}
-
-/* button "webshop" */
-main section:nth-of-type(5) button {
-	margin-top: 2em;
 }
 
 
@@ -557,10 +547,10 @@ section:nth-of-type(6) ul a:hover {
 	color: black;
 }
 
-/* button "bekijk alle thema's" positioneren in het midden */
-section:nth-of-type(6) button {
+/* fake button "bekijk alle thema's" positioneren in het midden */
+section:nth-of-type(6) a {
 	position: absolute;
-	left: 5.5em;
+	left: 7em;
 }
 
 
@@ -607,11 +597,9 @@ main section:nth-of-type(7) ul {
 	margin-bottom: 4em;
 }
 
-section:nth-of-type(7) button {
+section:nth-of-type(7) a {
 	position: absolute;
 	left: 14em;
-
-	margin-top: 1em;
 }
 
 
@@ -724,7 +712,7 @@ footer section input:nth-of-type(2) {
 footer section input:nth-of-type(2):hover {
 	background-color: var(--color-green);
 
-	transform: rotate(-3deg);
+	transform: rotate(-2deg);
 	font-size: 18px;
 	font-weight: 500;
 }
@@ -794,7 +782,7 @@ footer section:nth-of-type(2) img {
 /** MENU **/
 /**********/
 
-/* menu button styling en positioneren */
+/* menu buttons styling en positioneren */
 footer section:nth-of-type(2) button {
 	position: fixed;
 	top: 0.5em;
@@ -818,6 +806,29 @@ footer section:nth-of-type(2) button:hover {
 
 	font-size: 1em;
 	font-weight: 500;
+}
+
+.verborgen-menu {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+
+	display: grid;
+	align-content: center;
+	background-color: var(--color-green);
+
+	/* nav menu uit beeld schuiven naar links */
+	transform: translateX(-105%);
+	transition: transform 0.3s;
+	
+	gap: 1em;
+	z-index: 1;
+}
+
+nav.toon-menu{
+	transform: translateX(0);
 }
 
 
