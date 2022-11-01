@@ -819,8 +819,8 @@ footer section:nth-of-type(2) button:hover {
 	align-content: center;
 	background-color: var(--color-green);
 
-	/* nav menu uit beeld schuiven naar links */
-	transform: translateX(-105%);
+	/* nav menu in beeld schuiven vanuit rechts */
+	transform: translateX(105%);
 	transition: transform 0.3s;
 	
 	gap: 1em;

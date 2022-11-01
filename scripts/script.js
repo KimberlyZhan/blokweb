@@ -63,7 +63,7 @@ var openMenuButton = document.querySelector(".menu-button");
 
 function openMenu() {
     var verborgenMenu = document.querySelector(".verborgen-menu");
-    verborgenMenu.classList.add("toonMenu");
+    verborgenMenu.classList.add("toon-menu");
 }
 
 openMenuButton.addEventListener("click", openMenu);
@@ -73,7 +73,7 @@ var sluitMenuButton = document.querySelector(".sluit-menu-button");
 
 function sluitMenu() {
     var sluitVerborgenMenu = document.querySelector(".verborgen-menu");
-    sluitVerborgenMenu.classList.remove("toonMenu");
+    sluitVerborgenMenu.classList.remove("toon-menu");
 }
 
 sluitVerborgenMenu.addEventListener("click", sluitMenu);
