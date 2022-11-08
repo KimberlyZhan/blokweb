@@ -76,4 +76,4 @@ function sluitMenu() {
     sluitVerborgenMenu.classList.remove("toon-menu");
 }
 
-sluitVerborgenMenu.addEventListener("click", sluitMenu);
+sluitMenuButton.addEventListener("click", sluitMenu);
